@@ -51,10 +51,10 @@ The work is divided into five main phases:
 
 | Dataset | Logistic Regression | Random Forest | XGBoost |
 |----------|--------------------:|---------------:|---------:|
-| **HI_Medium** | 0.8331 | 0.9743 | 🏆 **0.9985** |
-| **HI_Small** | 0.7925 | 0.9814 | 🏆 **0.9996** |
-| **LI_Medium** | 0.7709 | 0.9769 | 🏆 **0.9984** |
-| **LI_Small** | 0.7007 | 0.9762 | 🏆 **0.9994** |
+| **HI_Medium** | 0.8331 | 0.9743 |  **0.9985** |
+| **HI_Small** | 0.7925 | 0.9814 |  **0.9996** |
+| **LI_Medium** | 0.7709 | 0.9769 |  **0.9984** |
+| **LI_Small** | 0.7007 | 0.9762 |  **0.9994** |
 
 > XGBoost achieved near-perfect AUC across all datasets, establishing a strong classical baseline.
 
