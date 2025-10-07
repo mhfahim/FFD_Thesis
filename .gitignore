@@ -1,0 +1,133 @@
+(# ---- Python / general ----)
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Pylint / mypy / pyright caches
+.mypy_cache/
+.pyright/
+
+(# ---- Jupyter ----)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter runtime
+jupyter_runtime/
+
+(# ---- Environments ----)
+# virtualenv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Conda
+conda-meta/
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+(# ---- IDEs / editors ----)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+(# ---- OS files ----)
+.DS_Store
+Thumbs.db
+
+(# ---- Secrets / credentials / local config ----)
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets.*
+credentials.json
+
+(# ---- Data / outputs / models ----)
+# Large or generated data: adjust as needed if you want to track specific files
+data/raw/
+data/interim/
+data/processed/
+data/ready/
+data/ml/
+
+# Models and ML artifacts
+models/
+*.joblib
+*.pkl
+*.pickle
+*.model
+*.ckpt
+*.pth
+*.pt
+*.h5
+xgb_*.json
+xgb_*.joblib
+
+# Reports / figures / exported results
+reports/
+reports/figures/
+
+(# ---- Logs / temp / caches ----)
+logs/
+*.log
+tmp/
+temp/
+cache/
+.cache/
+
+(# ---- Misc ----)
+# Ignore compiled files and local build artifacts
+*.so
+*.egg
+
+# Keep a placeholder if you intentionally want to track an otherwise-ignored empty folder
+!.gitkeep
+
+# End of .gitignore
